@@ -14,39 +14,469 @@
   background-size: cover;
 }
 
-header nav {
+.background header nav {
   padding: 0px 10px;
 }
 
-header nav ul li {
+.background header nav ul li {
   margin: 0px 5px;
 }
 
-header nav ul li a {
+.background header nav ul li a {
   font-size: 1.2rem;
   color: white;
 }
 
-header nav ul li a:hover {
+.background header nav ul li a:hover {
   color: lightgray;
 }
 
-header nav .socials {
+.background header nav .socials {
   margin-left: 20px;
 }
 
-header nav .socials .social-icons {
+.background header nav .socials .social-icons {
   color: #007472;
   margin: 0px 10px;
 }
 
-header nav .socials .social-icons:hover {
+.background header nav .socials .social-icons:hover {
   color: #066361;
 }
 
+.background .novo-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.background .novo-texts h1 {
+  color: white;
+  font-weight: 400;
+}
+
+.background .novo-texts h4 {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.background .novo-texts .whowe a {
+  margin-left: -15px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.background .novo-texts p i {
+  margin-right: 3px;
+}
+
+.background .novo-texts p a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .background .novo-texts {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .background .novo-texts div:first-child {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .background .novo-texts div:first-child h4 {
+    margin-top: 20px;
+  }
+  .background .novo-texts .whowe {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    height: 80vh;
+  }
+}
+
+.presidents {
+  position: relative;
+  top: -20vh;
+}
+
+.presidents .card {
+  position: relative;
+}
+
+.presidents .card .card-header {
+  background: transparent;
+  border: none;
+}
+
+.presidents .card .card-body h3 {
+  color: #3A3A3A;
+  font-weight: 400;
+}
+
+.presidents .card .card-body p {
+  color: #858585;
+  font-size: 17px;
+}
+
+.presidents .card .card-footer {
+  border: none;
+  background: transparent;
+}
+
+.presidents .card button {
+  position: absolute;
+  background: transparent;
+  border: 1px solid #DFDFDF;
+  padding: 8px 12px;
+  border-radius: 5px;
+  bottom: -50px;
+  right: 0px;
+}
+
+.presidents .card button i {
+  color: #007472;
+  margin: 5px;
+}
+
+.tree {
+  background: url("../images/tree.png");
+  background-repeat: no-repeat;
+  background-position-x: 150%;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.tree .links ul {
+  padding-left: 12px;
+}
+
+.tree .links ul a {
+  color: #3A3A3A;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.tree h1 {
+  color: #3A3A3A;
+  font-weight: 400;
+  letter-spacing: 6px;
+  margin: 20px 0px;
+}
+
+.tree h5 {
+  font-size: 20px;
+  color: #3A3A3A;
+  font-weight: 350;
+  letter-spacing: 5px;
+}
+
+.tree p {
+  line-height: 2rem;
+  margin: 10px 0px;
+}
+
+.tree h2 {
+  color: #3A3A3A;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.bumerang {
+  background: url("../images/Bumerang.png");
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+}
+
+.bumerang .bumerang-info a {
+  margin-right: 3px;
+  color: #3A3A3A;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+
+.bumerang .bumerang-info h3 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.bumerang .bumerang-info p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #3A3A3A;
+}
+
+.bumerang .row {
+  margin: 5rem 0px;
+}
+
+.bumerang .card {
+  position: relative;
+}
+
+.bumerang .card .card-header {
+  background: transparent;
+  border: none;
+}
+
+.bumerang .card .card-body h3 {
+  color: #3A3A3A;
+  font-weight: 400;
+}
+
+.bumerang .card .card-body p {
+  color: #858585;
+  font-size: 17px;
+}
+
+.bumerang .card .card-footer {
+  border: none;
+  background: transparent;
+}
+
+.bumerang .card button {
+  position: absolute;
+  background: transparent;
+  border: 1px solid #DFDFDF;
+  padding: 8px 12px;
+  border-radius: 5px;
+  bottom: -50px;
+  right: 0px;
+}
+
+.bumerang .card button i {
+  color: #007472;
+  margin: 5px;
+}
+
+.advantage {
+  padding-top: 3rem;
+  background: url("../images/Bitmap.png");
+  background-repeat: no-repeat;
+  background-position-x: 120%;
+  background-position-y: 100%;
+}
+
+.advantage h1 {
+  color: #3A3A3A;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.advantage h1 + p {
+  margin-bottom: 3rem;
+}
+
+.advantage .advantage-row h3 {
+  color: #3A3A3A;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+}
+
+.companies {
+  padding: 2rem 0px;
+  margin-bottom: 30vh;
+}
+
+.companies h1 {
+  font-size: 3rem;
+  color: #3A3A3A;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.companies .companies-card {
+  width: 100%;
+  border: 1px solid #DFDFDF;
+  height: 280px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.vacancies {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00BDBB), to(#002624));
+  background-image: linear-gradient(to bottom, #00BDBB, #002624);
+  padding-bottom: 20vh;
+}
+
+.vacancies .vacancie {
+  position: relative;
+  bottom: 25vh;
+}
+
+.vacancies .vacancie h1 {
+  color: #3A3A3A;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.vacancies .vacancie p {
+  text-align: center;
+}
+
+.vacancies .vacancie p a {
+  margin-left: 5px;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: #3A3A3A;
+  text-decoration: none;
+}
+
+.vacancies .vacancie .card {
+  position: relative;
+}
+
+.vacancies .vacancie .card .card-header {
+  background: transparent;
+  border: none;
+}
+
+.vacancies .vacancie .card .card-body h3 {
+  color: #3A3A3A;
+  font-weight: 400;
+}
+
+.vacancies .vacancie .card .card-body p {
+  color: #858585;
+  font-size: 17px;
+}
+
+.vacancies .vacancie .card .card-footer {
+  border: none;
+  background: transparent;
+}
+
+.vacancies .vacancie .card button {
+  position: absolute;
+  background: white;
+  border: 1px solid #DFDFDF;
+  padding: 8px 12px;
+  border-radius: 5px;
+  bottom: -50px;
+  right: 0px;
+}
+
+.vacancies .vacancie .card button i {
+  color: #007472;
+  margin: 5px;
+}
+
+.vacancies .contact {
+  margin: 3rem 0px 0px 0px;
+}
+
+.vacancies .contact h1 {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin: 2rem 0px;
+}
+
+.vacancies .contact .col-6 {
+  color: white;
+  margin: 0px 1rem;
+}
+
+.vacancies .contact .col-6 h3 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.vacancies .contact .col-6 p {
+  text-align: left;
+}
+
+.vacancies .form-map .map {
+  /* The width is the width of the web page */
+}
+
+.vacancies .form-map .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.vacancies .form-map h5 {
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.vacancies .form-map p {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.vacancies .form-map form {
+  position: relative;
+}
+
+.vacancies .form-map form input {
+  width: 100%;
+  border: none;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: #007472;
+  border-radius: 4px;
+  color: white;
+}
+
+.vacancies .form-map form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.vacancies .form-map form input:-ms-input-placeholder {
+  color: white;
+}
+
+.vacancies .form-map form input::-ms-input-placeholder {
+  color: white;
+}
+
+.vacancies .form-map form input::placeholder {
+  color: white;
+}
+
+.vacancies .form-map form textarea {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  background-color: #007472;
+  border-radius: 5px;
+  color: white;
+}
+
+.vacancies .form-map form button {
+  background-color: white;
+  color: #007472;
+  padding: 7px 3rem;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -40px;
+  right: 0px;
+}
+
 footer {
-  background-color: #F8F6F6;
-  padding: 30px 0px;
+  background-color: #f8f6f6;
+  padding: 25px 0px;
 }
 
 footer h5 {
